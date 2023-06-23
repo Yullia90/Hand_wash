@@ -42,7 +42,7 @@ document.getElementById('order-action').onclick = function () {
     [burger, name, phone].forEach(item => {
       item.value = ' '; //чистим строку
     });
-    alert('Спасибо за заказ!');
+    alert('Дякую за замовлення!');
   }
 };
 
