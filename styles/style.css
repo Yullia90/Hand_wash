@@ -223,7 +223,8 @@ body {
 }
 
 .products-item-image img {
-  max-width: 100%;
+  max-width: 100%; 
+ 
 }
 
 .products-item-title {
