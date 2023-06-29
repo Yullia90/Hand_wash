@@ -155,6 +155,8 @@ document.addEventListener('click', function (event) {
 });
 
 
+
+
 // function zoomImage(image) {
 //   // Створюємо модальне вікно для збільшення картинки
 //   var modalImageCard = document.createElement('div');
