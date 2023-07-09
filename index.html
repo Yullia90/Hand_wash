@@ -18,7 +18,7 @@
                 <a data-link="why">Чому обирають нас?</a>
               </li>
               <li class="menu-item">
-                <a data-link="products">Каталог мийок</a>
+                <a data-link="products">Каталог</a>
               </li>
               <li class="menu-item">
                 <a data-link="order">Оформлення замовлення</a>
@@ -28,6 +28,103 @@
               </li>
             </ul>
           </nav>
+          <div class="connect">
+          <ul class="connect__contact list">
+            <li class="contact">
+              <a class="contact__link link" href="mailto:info@devstudio.com"
+                ><svg class="contact__icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-email"></use></svg
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact">
+              <a class="contact__link link" href="tel:+380961111111"
+                ><svg class="contact__icon" width="10" height="16">
+                  <use href="./images/symbol-defs.svg#icon-telefone"></use></svg
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+               <!-- <button type="button" class="menu-open_button" data-menu-open>
+          <svg class="modal-menu-icon" width="40" height="40">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="mob-menu is-hidden" data-menu>
+          <div class="container__mob-menu">
+            <div class="mob-menu__top">
+              <button type="button" class="menu-close_button" data-menu-close>
+                <svg class="modal-close-icon" width="40" height="40">
+                  <use href="./images/symbol-defs.svg#icon-close"></use>
+                </svg>
+              </button>
+              <ul class="mob-menu__list list">
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link link current" href="./index.html">Каталог мийок</a>
+                </li>
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link link" href="./portfolio.html">Оформлення замовлення</a>
+                </li>
+                <li class="mob-menu__item">
+                  <a class="mob-menu__link link" href="">Контакти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mob-menu__bottom">
+              <div class="mob-connect">
+                <ul class="mob-connect__list list">
+                  <li class="mob-connect__item">
+                    <a class="mob-connect__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                  </li>
+                  <li class="mob-connect__item">
+                    <a class="mob-connect__email link" href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <ul class="mob-soc__list list">
+                <li class="mob-soc__item">
+                  <a
+                    class="mob-soc__icon"
+                    href="instagram"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="mob-soc__item">
+                  <a
+                    class="mob-soc__icon"
+                    href="twitter"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="mob-soc__item">
+                  <a
+                    class="mob-soc__icon"
+                    href="facebook"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="mob-soc__item">
+                  <a
+                    class="mob-soc__icon"
+                    href="linkedin"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
           <!-- <div class="currency" title="Змінити валюту" id="change-currency">$</div> -->
         </div>
       </header>
@@ -78,7 +175,7 @@
     </section>
     <section class="products" id="products">
       <div class="container ">
-        <div class="products-title common-title">Каталог мийок</div>
+        <div class="products-title common-title">Каталог</div>
         <div class="products-items">
           <div class="products-item">
             <div class="products-item-image">
@@ -1422,12 +1519,60 @@
       </section>
     </section>
     <section class="contacts" id="contacts">
-        <footer class="footer">
-      <div class="container">
-        <div class="logo">
-          <img src="./images/kronerlogo.jpg" alt="Logo" />
+    <footer class="footer">
+      <div class="container contact-web">
+        <div class="footer-tablet">
+          <div class="contacts">
+            <div class="logo">
+            <img src="images/kronerlogo.jpg" alt="Logo" />
+          </div>
+            <address class="contacts__adress">
+              <ul class="contacts__list list">
+                <li class="contacts__contacts-type">
+                  <a
+                    class="contacts__map link"
+                    href="https://goo.gl/maps/CTmhHQKZqYB2jewa7"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    м. Київ, пр-т Лесі Українки, 26
+                  </a>
+                </li>
+                <li class="contacts__contacts-type">
+                  <a class="contacts__contact link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="contacts__contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="network">
+            <h3 class="network__text">приєднуйтесь</h3>
+            <ul class="network__list list">
+              <li class="network__icon">
+                <a class="network__icon-link-footer" href="instagram">
+                  <svg class="network__icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="network__icon">
+                <a class="network__icon-link-footer" href="facebook">
+                  <svg class="network__icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="network__icon">
+                <a class="network__icon-link-footer" href="linkedin">
+                  <svg class="network__icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="rights">контакти</div>
       </div>
     </footer>
     </section>   
