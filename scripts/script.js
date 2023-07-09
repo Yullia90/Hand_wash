@@ -22,10 +22,15 @@ for (let i = 0; i < buttons.length; i++) {
   };
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("form")
+})
+
 //обращаемся к каждому полю
 let sink = document.getElementById('sink');
 let name = document.getElementById('name');
 let phone = document.getElementById('phone');
+let promo = document.getElementById('promo');
 
 //делаем валидацию форми
 document.getElementById('order-action').onclick = function () {
@@ -40,7 +45,7 @@ document.getElementById('order-action').onclick = function () {
   });
   //проверяем на ошибки
   if (!hasError) {
-    [sink, name, phone].forEach(item => {
+    [sink, name, phone, promo].forEach(item => {
       item.value =' '; //чистим строку
     });
     alert('Дякую за замовлення!');
@@ -78,6 +83,7 @@ document.getElementById('order-action').onclick = function () {
 //       +(prices[i].getAttribute('data-base-price') * coefficient).toFixed(1) + ' ' + newCurrency;
 //   }
 // };
+
 //Слайдер
 $(document).ready(function () {
   $('.slider').slick({
