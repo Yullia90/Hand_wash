@@ -287,12 +287,12 @@ body {
   margin-bottom: 10px;
   background-color: transparent;
   border: none;
-  /* @media screen and (min-width: 768px) {
+   @media screen and (min-width: 768px) {
     display: none;
-  } */
+  }
 }
 
-.mob-menu {
+ .mob-menu {
   position: absolute;
   top: 0;
   left: 0;
@@ -303,10 +303,10 @@ body {
   z-index: 1;
   padding-left: 40px;
   padding-bottom: 48px;
-  /* @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     display: none;
-  } */
-  > .containerr__mob-menu {
+  } 
+   .container__mob-menu {
     height: 100%;
     width: 100%;
     display: flex;
@@ -329,9 +329,9 @@ body {
 }
 
 .mob-menu__list {
-  /* @media screen and (min-width: 320px) and (max-width: 480px) {
+   @media screen and (min-width: 320px) and (max-width: 480px) {
     margin-bottom: 260px;
-  } */
+  } 
   margin-bottom: 300px;
 }
 
@@ -372,9 +372,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent);
-  /* @media screen and (min-width: 320px) and (max-width: 479px) {
+   @media screen and (min-width: 320px) and (max-width: 479px) {
     font-size: 28px;
-  } */
+  } 
 }
 
 .mob-connect__email {
@@ -412,9 +412,9 @@ body {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent);
-  /* @media screen and (min-width: 320px) and (max-width: 479px) {
+   @media screen and (min-width: 320px) and (max-width: 479px) {
     font-size: 12px;
-  } */
+  } 
 }
 .mob-soc__item:not(:last-child) {
   &::after {
@@ -439,7 +439,7 @@ body {
   line-height: 32px;
   margin-left: auto;
   user-select: none;
-}
+} 
 
 .main-content {
   padding-top: 103px;
@@ -491,7 +491,7 @@ body {
 }
 
 .why {
-  /* background-image: url('../images/whybg.png'); */
+   background-image: url('../images/whybg.png'); 
   background-position: top center;
   background-size: initial;
   padding-bottom: 180px;
@@ -586,13 +586,13 @@ body {
   margin-right: 10px;
 }
 
-/* .order {
+ .order {
   background-image: url('../images/order_bg.png');
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 180px;
   overflow: hidden;
-} */
+} 
 
 .order .container {
   position: relative;
